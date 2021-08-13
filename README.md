@@ -47,9 +47,9 @@
    
 ## 4. Select Text
 *This is after user selects the mode.*
-1. Quote
+1. Quotes
 2. Lines from books/movies
-3. Code(Maybe?) 
+3. Codes 
 
 ## 5. Typing Session
 
