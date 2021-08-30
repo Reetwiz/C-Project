@@ -63,7 +63,7 @@ ChooseOpt:
 
     default:
         printf("\n\t\tERROR!! Please select 1, 2, 3, 4 or 5.");
-        Sleep(2000);
+        Sleep(1000);
         goto ChooseOpt;
     }
     //printf("\n\t\tPress any key to continue: ");
@@ -151,6 +151,9 @@ selecttext:
     case 4:
         file_name[1]='4';
         break;
+    case 5:
+        mainmenu();
+        break;
     default:
         printf("Invalid Option");
         goto selecttext;
@@ -185,7 +188,7 @@ selectmode:
 void challenge_mode(char file_name[7])
 {
     int i = 0, totalcharacters = 1,wrong = 0, j, begin, end, diff, wpm;
-    char ch,c;
+    char ch,c, choice;
     FILE *fptr, *ptr;
      system("cls");
     fptr = fopen(file_name, "r");
@@ -243,19 +246,20 @@ void challenge_mode(char file_name[7])
     system("cls");
     printf("\n\nYour wpm is: %d", wpm);
     printf("\n The accuracy is: %f", accuracy);
-    return;
-     printf("Press enter to return to the main menu or escape key to exit");
-    char cho;
-    gets(ch);
-    if (ch=="\n")
-        mainmenu();
+      printf("Do you want to store your record?\nPress Y to store or N to return to the main menu\n");
+     fflush(stdin);
+    choice=getchar();
+    //if (choice=='Y')
+      //
+
 }
 
-void tutor_mode(char file_name[6])
+void tutor_mode(char file_name[7])
 {
+
     int i = 0, begin, end, diff, j, wrong = 0, totalcharacters = 1;
     int wpm;
-    char ch;
+    char ch, choice;
     FILE *fptr, *ptr;
      system("cls");
     fptr = fopen(file_name, "r");
@@ -310,18 +314,20 @@ aa:
     system("cls");
     printf("\n\nYour wpm is: %d", wpm);
     printf("\n The accuracy is: %.2f %c", accuracy, '%');
-     printf("Press enter to return to the main menu or escape key to exit");
-     printf("Do you want to store your record?");
-     char choice;
-     scanf("%c", choice);
+     printf("\nPress enter to return to the main menu or escape key to exit");
+     printf("\nDo you want to store your record?\nPress Y to store or N to return to the main menu\n");
+     fflush(stdin);
+    choice=getchar();
+       //if (choice=='Y')
+      //
 
 }
 
-void death_mode(char file_name[6])
+void death_mode(char file_name[7])
 {
     int i = 0, begin, end, diff, j, wrong = 0, totalcharacters = 1;
     int wpm;
-    char ch;
+    char ch, choice;
      system("cls");
     FILE *fptr, *ptr;
     fptr = fopen(file_name, "r");
@@ -376,8 +382,12 @@ aa:
     float accuracy = ((i-wrong)/(float)i) * 100.0;
     system("cls");
     printf("\n\nYour wpm is: %d", wpm);
-    printf("\n The accuracy is: %.2f %c", accuracy, '%');
-    printf("Press enter to return to the main menu or escape key to exit");
+    printf("\n The accuracy is: %.2f %c\n", accuracy, '%');
+     printf("Do you want to store your record?\nPress Y to store or N to return to the main menu\n");
+     fflush(stdin);
+    choice=getchar();
+   //if (choice=='Y')
+      //
 
 }
 
