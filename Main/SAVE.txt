@@ -1,0 +1,6 @@
+	1      nk32      	Death mode     	Lowercase Letters   	55             Tue Aug 31 10:44:08 2021
+          
+	2      bhbe3     	Death mode     	Mixedcase Alphabets 	25             Tue Aug 31 10:44:29 2021
+          
+	3      oi3j      	Death mode     	Numbers             	26             Tue Aug 31 10:45:20 2021
+          
