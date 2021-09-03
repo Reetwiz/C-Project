@@ -1,0 +1,9 @@
+
+ 1. Start a new game, type in your username and select one of these modes: 
+     - Tutor Mode: Automatically fixes mistakes 
+     - Challenge Mode: Calculates accuracy 
+     - Death Mode: Game ends on mistake 
+
+ 2. Select a text of your choice and then the typing session begins.
+
+ 3. Select View Scores in the main menu to view the latest records.
