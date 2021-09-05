@@ -1,0 +1,1 @@
+#printf("Time is valuable:),so don't waste it,and make the most outof it<-_->:)");
