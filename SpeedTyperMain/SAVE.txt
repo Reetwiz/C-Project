@@ -1,20 +1,10 @@
-	1      nk32      	Death mode     	Lowercase Letters   	55             Tue Aug 31 10:44:08 2021
+	1      Player1   	Tutor mode     	Lowercase Letters   	111            Sun Sep 05 08:26:19 2021
+          	          
+	3      Player2   	Challenge mode 	Lowercase Letters   	86             Sun Sep 05 08:31:11 2021
           
-	2      bhbe3     	Death mode     	Mixedcase Alphabets 	25             Tue Aug 31 10:44:29 2021
+	4      Player3   	Tutor mode     	Lowercase Letters   	111            Sun Sep 05 08:33:56 2021
           
-	3      oi3j      	Death mode     	Numbers             	26             Tue Aug 31 10:45:20 2021
+	4      Player4   	Survival mode  	Mixedcase Alphabets 	44             Sun Sep 05 08:41:11 2021
           
-	4      Reetwiz   	Tutor mode     	Lowercase Letters   	97             Fri Sep 03 18:25:06 2021
-          
-	5      Reetwiz   	Tutor mode     	Lowercase Letters   	111            Fri Sep 03 18:33:52 2021
-          
-	6      Reetwiz   	Tutor mode     	Lowercase Letters   	20             Fri Sep 03 19:37:48 2021
-          
-	7      Reetwiz   	Tutor mode     	Lowercase Letters   	15             Fri Sep 03 20:25:41 2021
-          
-	8      Retewiz   	Tutor mode     	Lowercase Letters   	30             Fri Sep 03 20:39:45 2021
-          
-	9      Reetwiz   	Tutor mode     	Lowercase Letters   	180            Fri Sep 03 22:19:23 2021
-          
-	10     Reetwiz   	Tutor mode     	Lowercase Letters   	60             Fri Sep 03 22:22:56 2021
+	5      Player5   	Challenge mode 	Numbers             	42             Sun Sep 05 08:41:39 2021
           
