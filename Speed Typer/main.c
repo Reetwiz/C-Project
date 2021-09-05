@@ -154,7 +154,7 @@ selecttext:
     puts("\t\t\t\t\t\t*****************************\n");
     printf("\t\t\t\t\t\t       Texts Available\n\n");
     puts("\t\t\t\t\t\t*****************************\n");
-    printf("\t\t\t\t\t\t1. Lowercase Letters \n\t\t\t\t\t\t2. Mixed Alphabets \n\t\t\t\t\t\t3. Punctuations \n\t\t\t\t\t\t4. Numbers\n");
+    printf("\t\t\t\t\t\t1. Lowercase Letters \n\t\t\t\t\t\t2. Mixedcase Alphabets \n\t\t\t\t\t\t3. Punctuations \n\t\t\t\t\t\t4. Numbers\n");
     printf("\n\t\t\t\t\t\tOr Press 5 to return to main menu\n");
     printf("\n\t\t\t\t\t\tSelect Your Choice: ");
     scanf("%d", &choice);
@@ -422,7 +422,7 @@ void survival_mode(char file_name[7],int choice)
                     putch(b[i]);
                 else if (ch != b[i])
                 {
-                    printf("\n\nOops! You entered %c instead of %c", b[i], ch);
+                    printf("\n\n\tOops! You entered %c instead of %c.", b[i], ch);
                     Sleep(1500);
                     goto b2;
                 }
@@ -463,7 +463,7 @@ a3:
 
 b2:
         fclose(ptr);
-        printf("\n\t\t\t\t\t\tPress N to return to the main menu\n\t\t\t\t\t\tPress any key to replay:");
+        printf("\n\n\t\t\t\t\t\tPress N to return to the main menu\n\t\t\t\t\t\tPress any key to replay:");
         printf("\n\n\t\t\t\t\t\tSelect Your Choice: ");
         fflush(stdin);
         sel=getchar();
@@ -571,7 +571,7 @@ void SaveProgress(char file_name[7],int wpm,int choice)
         strcat(text,"Lowercase Letters");
         break;
     case '2':
-        strcat(text,"Mixed Alphabets");
+        strcat(text,"Mixedcase Alphabets");
         break;
     case '3':
         strcat(text,"Punctuation");
