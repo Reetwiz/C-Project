@@ -1,0 +1,9 @@
+
+ SPEED TYPER is a C- Programming project developed by: 
+        ~Nayan Pandey (077bct049)
+        ~Parikshit Adhikari (077bct054)
+        ~Prasanga Aryal (077bct056)
+        ~Reetwiz Amatya (077bct067)
+
+ Developers of SPEED TYPER are the classmates, 
+ currently studying Bachelors of Computer Engineering at IOE, Pulchowk Campus.
