@@ -74,7 +74,7 @@ ChooseOpt:
         exit(0);
 
     default:
-        printf("\n\t\t\t\t\t\Invalid Option! Please select 1, 2, 3, 4 or 5.");
+        printf("\n\t\t\t\t\tInvalid Option! Please select 1, 2, 3, 4 or 5.");
         Sleep(2000);
         goto ChooseOpt;
     }
@@ -315,7 +315,7 @@ void challenge_mode(char file_name[7],int choice)
         printf("\t");
         totalcharacters = count(file_name);
         char b[150];
-        printf("\n\n");
+        printf("\n\n\tYour input: ");
         ptr = fopen(file_name, "r");
         if (ptr == NULL)
         {
@@ -571,7 +571,7 @@ void SaveProgress(char file_name[7],int wpm,int choice)
         strcat(text,"Lowercase Letters");
         break;
     case '2':
-        strcat(text,"Mixedcase Alphabets");
+        strcat(text,"Mixed Alphabets");
         break;
     case '3':
         strcat(text,"Punctuation");
@@ -625,4 +625,3 @@ void ViewScores()
     choice=getchar();
     if (choice=='\n') mainmenu();
 }
-
